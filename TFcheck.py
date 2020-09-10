@@ -1,4 +1,6 @@
 import tensorflow as tf
+#import os
+#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 print(tf.test.is_built_with_cuda())
 
